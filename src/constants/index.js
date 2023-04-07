@@ -145,111 +145,214 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Student Researcher | Full Stack Developer",
-    company_name: "Wimtach",
+    title: "Financial Analyst Intern",
+    company_name: "RBC Headquarters | Toronto, ON",
     icon: centennial,
     iconBg: "#454546",
-    date: "January 2023 - Present",
+    date: "May 2023 - Present",
     points: [
-      "Designed and implemented a Microsoft SQL Server database from scratch, and hosted it on Amazon Web Services (AWS) Relational Database Service (RDS), ensuring high availability and scalability of the system.",
-      "Created the basic logic of the project and developed documentation such as Entity Relationship Diagrams (ERDs), flowcharts, and technical specifications to guide development teams, and ensure consistent understanding of the project.",
+      "Conducted financial modeling and analysis using VBA, Excel, and Python to support decision-making processes and optimize financial performance, resulting in a 15% increase in revenue.",
+      "Developed and maintained financial models and forecasting tools to monitor and analyze business trends and performance metrics, improving accuracy by 20%.",
+      "Demonstrated strong communication and interpersonal skills in liaising with clients, stakeholders, and team members to gather requirements and provide guidance and support.",
     ],
-    website: "https://wimtach.centennialcollege.ca/partners/",
+    website: "https://www.rbc.com/about-rbc.html",
   },
   {
-    title: "UofTHacks Hackathon",
-    company_name: "University Of Toronto",
+    title: "Financial Service Representative",
+    company_name: "Cash Money | Toronto, ON",
     icon: uofthacks,
     iconBg: "#000",
-    date: "January 2023",
+    date: "July 2022 - Present",
     points: [
-      "Developed a Discord Bot during the UofTHacks hackathon, designed to recommend locations around Toronto based on the user's emotional state, with the goal of improving mental health and wellbeing.",
-      "Overcame challenges such as learning how to create a Discord bot and incorporating Co:here AI and ML technology, resulting in the successful creation of a functional bot. Gained valuable experience in bot development and working with AI and ML tools.",
+      "Demonstrated strong critical thinking and problem-solving skills by effectively handling various account and loan functions, including account validation, conducting AML investigations, and performing currency exchange transactions, resulting in a 95% customer satisfaction rate.",
+      "Utilized excellent communication and collaboration skills to create and implement successful sales strategies, resulting in a 20% increase in sales.",
     ],
-    website: "https://devpost.com/software/travel-therapy",
+    website: "https://www.cashmoney.ca/?_gl=1*y4kqel*_ga*Njk1OTE4NDQ0LjE2ODA4OTIwNTM.*_ga_TWPE9F4H8S*MTY4MDg5MjA1Mi4xLjAuMTY4MDg5MjA1Mi4wLjAuMA..",
   },
   {
-    title: "NSBE Hackathon",
-    company_name: "University Of Toronto",
+    title: "Financial Advisor",
+    company_name: "Life100 Insurance and Investments | Toronto, ON",
     icon: nsbe,
     iconBg: "#271744",
-    date: "March 2023",
+    date: "August 2021 - Present",
     points: [
-      "Our team participated in an inclusivity-themed hackathon and developed a discussion facilitation platform tailored for educational institutions.",
-      `Our team's solution was recognized with third place in the 'Best education hack' category, highlighting the importance of inclusivity in education and the potential of technology to facilitate it.`,
+      "Educated more than 70 clients on various financial matters and delivered professional recommendations on investment opportunities, products and services based on each client’s individual needs.",
+      "Earned a 100% continuous production bonus (CPB) for demonstrating a high level of commitment to the job, involving, tracking data and projecting future performances of various stocks, bonds, and funds",
     ],
     website:
-      "https://devpost.com/software/discuss-io?ref_content=user-portfolio&ref_feature=in_progress",
+      "https://life100.ca/",
   },
 ];
 
 const projects = [
   {
-    name: "Travel Therapy",
-    type: "Discord Bot",
+    name: "GreenSleuth",
+    type: "NLP Project",
 
     description:
-      "Our discord bot mainly uses Python to develop the backend system of our bot, and with the help of the discord API, our bot provides a user-friendly and understandable interface. After getting input from users, our app uses Co:here to generate recommendations based on the emotions displayed by the user.",
+      "GreenSleuth is an award-winning ML-driven project developed by a team of four diverse students at Hack the Mist. It utilizes NLP to analyze emergency distress calls, resulting in a 35% reduction in response times and potentially saving lives. The team strategically employed GPT API, Whisper, and Google Maps API within the innovative solution, which won the Future Impact Award. The project demonstrates adaptability, teamwork, and creativity in a high-pressure environment. GreenSleuth is a game-changer in the field of emergency services, leveraging cutting-edge technology to solve a critical problem and potentially revolutionizing the way emergency services respond to distress calls.",
     tags: [
       {
-        name: "python",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "hackathon",
+        name: "OpenAI",
         color: "purple-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML/CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Whisper",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "GoogleMapsAPI",
+        color: "orange-text-gradient",
       },
     ],
     image: travelTherapy,
     source_code_link:
-      "https://github.com/DavDeDev/UofTHacks-TravelTherapy#readme-top",
+      "https://github.com/JoshFernando/GreenSleuth---HACK-THE-MIST",
   },
   {
-    name: "Opzione Zen",
-    type: "Chrome Extension",
+    name: "HackTheFeed",
+    type: "Cybersecurity-related RSS aggregator and live news feed",
     description:
-      "This project is a Chrome Extension called 'Opzione Zen' that removes distracting components around the main content on popular websites to help users focus when reading documentation. It was developed after studying JavaScript and reading Google's documentation. The project includes a manifest.json file",
+      "HackTheFeed is an award-winning cybersecurity RSS feed aggregator developed using Flowbite Svelte, PostgreSQL, Prisma, and Fastify at Hack the Hill. The project utilizes machine learning algorithms to personalize news content for users and provides end-to-end encryption for 256-bit secure data storage. The platform won several awards at Hack the Hill, including Best Cybersecurity Project, Best Developer Experience Project, and 1st Place Ciena-Hack the Hill awards. The platform is designed to keep individuals and organizations informed and up-to-date on the latest cybersecurity news and best practices.",
     tags: [
       {
-        name: "manifest V3",
-        color: "green-text-gradient",
+        name: "Flowbite Svelte",
+        color: "blue-text-gradient",
       },
       {
-        name: "chrome APIs",
+        name: "PostgreSQL",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "TypeScript",
         color: "orange-text-gradient",
       },
       {
-        name: "css",
+        name: "Prisma",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Socket.IO",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Fastify",
+        color: "green-text-gradient",
       },
     ],
     image: opzioneZen,
-    source_code_link: "https://github.com/DavDeDev/Opzione-Zen#readme-top",
+    source_code_link: "https://github.com/JoshFernando/hackthefeedbackend",
     live_demo_link:
-      "https://chrome.google.com/webstore/detail/opzione-zen/pbkpdonipildmhpcpdjegimbhnkogpfi",
+      "https://hackthefeed.com/",
   },
   {
-    name: "Jobs API",
-    type: "RESTful API",
+    name: "LocalEyes",
+    type: "Explore, Learn, Reward, Connect web app",
     description:
-      "The project involved building a job search API using the Node.js and Express framework. MongoDB was utilized to store and retrieve job listings data, and RESTful routes were implemented to enable CRUD operations on the job listings. The API was tested and debugged using Postman, and it was integrated with a front-end documentation that was written in YAML using SwaggerUI and Apimatic",
+      "LocalEyes is a revolutionary web application that encourages users to explore their local communities. It won the Second Overall Winner and Best Sustainable Travel Hack in North America. With LocalEyes, users can filter and rank nearby locations based on proximity, type, and accessibility. The app incentivizes users to explore these locations by awarding coupons and points for every place they visit. When a user gets within 1km of a location, LocalEyes automatically generates contextually relevant quizzes generated by Cohere.ai that provide educational resources and award additional points. The app also uses Mapbox to provide a map for easy navigation and displays reviews from Google to help users decide which places to visit. With LocalEyes, users can explore their community while supporting local businesses and feeling more connected to their community.",
     tags: [
       {
-        name: "mongodb",
+        name: "GooglePlacesAPI",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "JSONSchema",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Swagger",
         color: "green-text-gradient",
       },
       {
-        name: "swaggerUI",
-        color: "lime-text-gradient",
+        name: "DaisyUI / TailwindCSS",
+        color: "purple-text-gradient",
+      },
+  
+    ],
+    image: jobsApi,
+    source_code_link: "https://github.com/JoshFernando/LocalEye-backend---MAPHACKS",
+    live_demo_link: "https://localey.es/",
+  },
+  {
+    name: "DataDefender",
+    type: " A Cybersecurity Chrome extension",
+    description:
+      "DataDefender is a chrome extension that analyzes the security and ethical standards of websites to provide users with a comprehensive understanding of the risks associated with their online activities. It generates a security score and cyber ethics analysis for each website and provides alternative options for websites with subpar privacy policies. DataDefender uses the OpenAI GPT-3 model and a third-party API to gather data on each website's security protocols, privacy policies, and data collection practices. DataDefender won the first overall winner in all in hacakton in North America and is designed to empower internet users to take control of their online privacy and security.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAI GPT-3 API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Third-party API",
+        color: "orange-text-gradient",
       },
     ],
     image: jobsApi,
-    source_code_link: "https://github.com/DavDeDev/JOBs-API",
-    live_demo_link: "https://seal-app-njg7y.ondigitalocean.app/api-docs/",
+    source_code_link: "https://github.com/JoshFernando/DataDefender",
+  },
+  {
+    name: "CheckMate Verification",
+    type: "Explore, Learn, Reward, Connect web app",
+    description:
+      "Checkmate Verification, a project that verifies the legitimacy of IDs such as passports and driver's licenses to prevent fraudulent loan applications. Developed a Canadian ID verification website using OpenCV and Tesseract OCR, resulting in a 50% reduction in fraudulent loan applications and saving the company $100,000 annually. Also, explored various deep learning models, resulting in a 20% increase in accuracy of face detection.",
+    tags: [
+      {
+        name: "Python",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+  
+      {
+        name: "Tensorflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Keras",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "TesseractOCR",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jobsApi,
+    source_code_link: "https://github.com/JoshFernando/Checkmate-Verification-repo",
   },
 ];
 

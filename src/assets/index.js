@@ -38,6 +38,8 @@ import nsbe from "./company/life100.png";
 import travelTherapy from "./travelTherapy.png";
 import opzioneZen from "./opzioneZen.gif";
 import jobsApi from "./jobsApi.png";
+import idveri from "./idveri.png";
+import datadefender from "./datadefender.png"
 
 import resume from "./Rafael Josh Fernando's Resume.pdf";
 
@@ -78,5 +80,7 @@ export {
   travelTherapy,
   opzioneZen,
   jobsApi,
+  idveri,
+  datadefender,
   resume,
 };

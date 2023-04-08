@@ -20,13 +20,14 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText}`}>
             Hi, I am <span className="text-[#ffff00]">Josh!</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 `}>
-          A passionate Math and CS student, with a thirst for knowledge, thrives on using ML/AI to drive<br className="sm:block hidden" />
-            <a target="_blank" href="https://www.gnu.org/philosophy/floss-and-foss.en.html">
-              <span className="text-[#ffff00] underline">positive</span>{" "}
-            </a>
-            change.
-          </p>
+
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+  A passionate Math and CS student, with a thirst for knowledge, thrives on using ML/AI to drive
+  <a target="_blank" href="https://devpost.com/jsneakest" className="text-[#ffff00] underline"> positive </a>
+  change.
+</p>
+
+
           <div className="flex mt-6 gap-5">
             <a
               href="https://www.linkedin.com/in/rafaeljoshfernando/"

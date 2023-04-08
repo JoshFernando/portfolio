@@ -27,6 +27,8 @@ import {
   nsbe,
   travelTherapy,
   opzioneZen,
+  datadefender,
+  idveri,
   jobsApi,
 } from "../assets";
 
@@ -47,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Machine Learning Engineer",
     icon: webdev,
   },
   {
-    title: "Java Developer",
+    title: "Data Scientist",
     icon: javadev,
   },
   {
-    title: "Backend Developer",
+    title: "Software Engineer",
     icon: backend,
   },
   {
-    title: "DBA",
+    title: "Cybersecurity Engineer",
     icon: dba,
   },
 ];
@@ -316,7 +318,7 @@ const projects = [
         color: "orange-text-gradient",
       },
     ],
-    image: jobsApi,
+    image: datadefender,
     source_code_link: "https://github.com/JoshFernando/DataDefender",
   },
   {
@@ -351,7 +353,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: jobsApi,
+    image: idveri,
     source_code_link: "https://github.com/JoshFernando/Checkmate-Verification-repo",
   },
 ];

@@ -9,6 +9,9 @@ import { slideIn } from "../utils/motion";
 
 import { resume } from "../assets";
 
+// template_myz37nn
+// josh0512
+// jojSQUbAqmzSlO44o
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -35,8 +38,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'josh0512', 
+        'template_myz37nn',
         {
           from_name: form.name,
           to_name: "Josh",
@@ -44,12 +47,12 @@ const Contact = () => {
           to_email: "fernandorafaeljosh@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'jojSQUbAqmzSlO44o'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you! I'll get back to you soon.");
+          alert("Thank you! I'll get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -118,7 +121,7 @@ const Contact = () => {
           <div className="flex flex-row justify-between">
             <button
               type="submit"
-              className="bg-[#ff8000] py-3 px-5 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              className="bg-[#ffff00] py-3 px-5 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary"
             >
               {loading ? "Sending..." : "Send"}
             </button>
@@ -126,7 +129,7 @@ const Contact = () => {
             <a
               href={resume}
               download
-              className=" bg-secondary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              className="bg-[#33CC66] py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md shadow-primary z-10"
             >
              Get Resume!
             </a>

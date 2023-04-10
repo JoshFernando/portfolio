@@ -12,7 +12,7 @@ const Hero = () => {
 
   useEffect(() => {
     const typed = new Typed(typedRef.current, {
-      strings: ["Hi, I am <span style='color: yellow'>Josh!</span>", "I am a <span style='color: yellow'>ML Enthusiast</span>"],
+      strings: ["Hi, I am <span style='color: yellow'>Josh!</span>", "I am an <span style='color: yellow'>ML Enthusiast</span>"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
